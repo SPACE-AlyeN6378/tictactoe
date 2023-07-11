@@ -21,7 +21,7 @@ else
     commt="Routine Commit"
     git add . && \
     git add -u && \
-    git commit -m $"$commt"$'\nby @arfazhxss on '"$(date +'%a %d %b %Y')" && \
+    git commit -m $"$commt"$'\nby @aly on '"$(date +'%a %d %b %Y')" && \
     git push origin HEAD
     git log > commit-hist.txt
     rm -Rf .DS_Store/
@@ -29,7 +29,7 @@ else
   else
     git add . && \
     git add -u && \
-    git commit -m $"$commt"$'\nCommit by @arfazhxss on '"$(date +'%a %d %b %Y')" && \
+    git commit -m $"$commt"$'\nCommit by @aly on '"$(date +'%a %d %b %Y')" && \
     git push origin HEAD
     git log > commit-hist.txt
     rm -Rf .DS_Store/
